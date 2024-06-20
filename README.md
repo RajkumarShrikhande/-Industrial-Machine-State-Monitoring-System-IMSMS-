@@ -14,4 +14,4 @@
 
 # Code:
 - Use the following code as a starting point.
-- Replace <yourSSID>, <yourPASSWORD>, and <your_API_KEY> with your Wi-Fi credentials and ThingSpeak API key.
+- Replace < yourSSID >, < yourPASSWORD >, and < your_API_KEY > with your Wi-Fi credentials and ThingSpeak API key.
