@@ -8,9 +8,9 @@ const int ldrPin = A1;
 const int lm35Pin = A2;
 
 //ThingSpeak settings
-const char *ssid = "jiofiber54";
-const char *password = "Rajks@5781";
-const char *thingSpeakApiKey = "BX52C2H2MZD6TSRD";
+const char *ssid = "******";
+const char *password = "******";
+const char *thingSpeakApiKey = "****************";
 const char *thingSpeakAddress = "api.thingspeak.com";
 
 EthernetClient client;
@@ -56,7 +56,7 @@ void loop()
   ThingSpeak.setField(3, temperature);
 
   //Write to ThingSpeak
-  int response = ThingSpeak.writeFields(2417531, "BX52C2H2MZD6TSRD");
+  int response = ThingSpeak.writeFields(2417531, "****************");
 
   if (response == 200) 
   {
